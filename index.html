@@ -1,0 +1,45 @@
+<html>
+<head>
+<link href="audio11_html5.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-2.0.1.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.11.1.js"></script>
+<script src="js/audio11_html5.js" type="text/javascript"></script>
+</head>
+
+<script>
+jQuery(function() {
+setTimeout(function(){
+
+jQuery("#lbg_audio11_html5_shoutcast_1").audio11_html5({
+radio_stream:"https://live.webhosting4u.gr/proxy/tsm?mp=/stream",
+nowPlayingFile: "",
+nextFile:'',
+playerWidth:760,
+width100Proc:false,
+sticky:false,
+centerPlayer:true,
+grabArtistPhoto:false,
+autoPlay:true,
+borderWidth:1,
+borderColor:"#bfbfbf",
+bgColor:"#ffffff",
+bgColorOpacity:1,
+barsColor:"#ffffff",
+playButtonColor:"#ffffff",
+playButtonHoverColor:"#d7d7d7",
+numberOfElementsDisplayed:0,
+pathToAjaxFiles:"",
+nowPlayingInterval:35,
+noImageAvailable:"noimageavailable.jpg"
+});
+}, 1000);
+
+});
+</script>
+<body>
+<div class="audio11_html5">
+<div id="lbg_audio11_html5_shoutcast_1">
+</div>
+</div>
+</body>
+ </html>
